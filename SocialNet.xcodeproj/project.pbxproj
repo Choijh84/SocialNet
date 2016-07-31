@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D5589CBBFAF3368DB6755FD /* Pods_SocialNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DE2070A4B4AB313FEE2C05 /* Pods_SocialNet.framework */; };
 		B9FA9F131D4E2C8500A37BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA9F121D4E2C8500A37BA6 /* AppDelegate.swift */; };
-		B9FA9F151D4E2C8500A37BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA9F141D4E2C8500A37BA6 /* ViewController.swift */; };
+		B9FA9F151D4E2C8500A37BA6 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FA9F141D4E2C8500A37BA6 /* SignInVC.swift */; };
 		B9FA9F181D4E2C8500A37BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FA9F161D4E2C8500A37BA6 /* Main.storyboard */; };
 		B9FA9F1A1D4E2C8500A37BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FA9F191D4E2C8500A37BA6 /* Assets.xcassets */; };
 		B9FA9F1D1D4E2C8500A37BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FA9F1B1D4E2C8500A37BA6 /* LaunchScreen.storyboard */; };
+		B9FA9F251D4E2CA300A37BA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9FA9F241D4E2CA300A37BA6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5163902776B5CBB32B11C04F /* Pods-SocialNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.debug.xcconfig"; sourceTree = "<group>"; };
+		90DE2070A4B4AB313FEE2C05 /* Pods_SocialNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA7C327A668539A56C5E6E3 /* Pods-SocialNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.release.xcconfig"; sourceTree = "<group>"; };
 		B9FA9F0F1D4E2C8500A37BA6 /* SocialNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FA9F121D4E2C8500A37BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9FA9F141D4E2C8500A37BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9FA9F141D4E2C8500A37BA6 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		B9FA9F171D4E2C8500A37BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9FA9F191D4E2C8500A37BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9FA9F1C1D4E2C8500A37BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9FA9F1E1D4E2C8500A37BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FA9F241D4E2CA300A37BA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5589CBBFAF3368DB6755FD /* Pods_SocialNet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AFD74EEF8CD5620C96CB118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5163902776B5CBB32B11C04F /* Pods-SocialNet.debug.xcconfig */,
+				ADA7C327A668539A56C5E6E3 /* Pods-SocialNet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E39670C588876C4F0F3C203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90DE2070A4B4AB313FEE2C05 /* Pods_SocialNet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9FA9F061D4E2C8500A37BA6 = {
 			isa = PBXGroup;
 			children = (
 				B9FA9F111D4E2C8500A37BA6 /* SocialNet */,
 				B9FA9F101D4E2C8500A37BA6 /* Products */,
+				1AFD74EEF8CD5620C96CB118 /* Pods */,
+				4E39670C588876C4F0F3C203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,39 @@
 		B9FA9F111D4E2C8500A37BA6 /* SocialNet */ = {
 			isa = PBXGroup;
 			children = (
+				B9FA9F281D4E2EC300A37BA6 /* View */,
+				B9FA9F271D4E2EBE00A37BA6 /* Model */,
+				B9FA9F261D4E2EB800A37BA6 /* Controller */,
 				B9FA9F121D4E2C8500A37BA6 /* AppDelegate.swift */,
-				B9FA9F141D4E2C8500A37BA6 /* ViewController.swift */,
 				B9FA9F161D4E2C8500A37BA6 /* Main.storyboard */,
 				B9FA9F191D4E2C8500A37BA6 /* Assets.xcassets */,
 				B9FA9F1B1D4E2C8500A37BA6 /* LaunchScreen.storyboard */,
 				B9FA9F1E1D4E2C8500A37BA6 /* Info.plist */,
+				B9FA9F241D4E2CA300A37BA6 /* GoogleService-Info.plist */,
 			);
 			path = SocialNet;
+			sourceTree = "<group>";
+		};
+		B9FA9F261D4E2EB800A37BA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B9FA9F141D4E2C8500A37BA6 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B9FA9F271D4E2EBE00A37BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B9FA9F281D4E2EC300A37BA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9FA9F211D4E2C8500A37BA6 /* Build configuration list for PBXNativeTarget "SocialNet" */;
 			buildPhases = (
+				F0CDB3280D95359EE88F491C /* [CP] Check Pods Manifest.lock */,
 				B9FA9F0B1D4E2C8500A37BA6 /* Sources */,
 				B9FA9F0C1D4E2C8500A37BA6 /* Frameworks */,
 				B9FA9F0D1D4E2C8500A37BA6 /* Resources */,
+				7A546CB7575D70549CD8FE63 /* [CP] Embed Pods Frameworks */,
+				6C477B2B25CC8EFCDECDDF79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9FA9F1D1D4E2C8500A37BA6 /* LaunchScreen.storyboard in Resources */,
+				B9FA9F251D4E2CA300A37BA6 /* GoogleService-Info.plist in Resources */,
 				B9FA9F1A1D4E2C8500A37BA6 /* Assets.xcassets in Resources */,
 				B9FA9F181D4E2C8500A37BA6 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +188,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C477B2B25CC8EFCDECDDF79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A546CB7575D70549CD8FE63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CDB3280D95359EE88F491C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9FA9F0B1D4E2C8500A37BA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9FA9F151D4E2C8500A37BA6 /* ViewController.swift in Sources */,
+				B9FA9F151D4E2C8500A37BA6 /* SignInVC.swift in Sources */,
 				B9FA9F131D4E2C8500A37BA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +359,7 @@
 		};
 		B9FA9F221D4E2C8500A37BA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5163902776B5CBB32B11C04F /* Pods-SocialNet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocialNet/Info.plist;
@@ -268,6 +372,7 @@
 		};
 		B9FA9F231D4E2C8500A37BA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA7C327A668539A56C5E6E3 /* Pods-SocialNet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocialNet/Info.plist;
@@ -297,6 +402,7 @@
 				B9FA9F231D4E2C8500A37BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
